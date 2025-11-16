@@ -34,6 +34,6 @@ jobs:
           protocol: ftp
           port: 21
           local-dir: dist/
-          server-dir: ${{ secrets.FTP_REMOTE_DIR }}
+          server-dir: ${{ secrets.FTP_REMOTE_DIR }}/
           log-level: verbose
 
